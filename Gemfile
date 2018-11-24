@@ -67,6 +67,8 @@ gem 'groupdate', '~> 3.2'
 # Simple gem to include Highcharts in a Rails 3.1 (or above) app
 gem 'highcharts-rails'
 
+gem tzinfo-data
+
 group :production do
   # Use postgresql as the database for Active Record
   gem 'pg'
