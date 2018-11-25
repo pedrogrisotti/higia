@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '2.3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
@@ -66,6 +66,8 @@ gem 'chartkick', '~> 2.2', '>= 2.2.5'
 gem 'groupdate', '~> 3.2'
 # Simple gem to include Highcharts in a Rails 3.1 (or above) app
 gem 'highcharts-rails'
+
+gem 'tzinfo-data'
 
 group :production do
   # Use postgresql as the database for Active Record
